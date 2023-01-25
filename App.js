@@ -2,7 +2,7 @@
 let email = document.getElementById('Email');
 let password = document.getElementById('Password');
 
-function validated() {
+function validate() {
 	// e.preventDefault();
 	if(emailIdVerify() && passwordVerify()){
 		return true;

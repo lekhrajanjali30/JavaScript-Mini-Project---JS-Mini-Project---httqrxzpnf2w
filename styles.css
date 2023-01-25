@@ -25,15 +25,15 @@ body{
 	font-weight: bold;
 	color: #40c5ba;
 }
-.login_form{
+.login_Page{
 	padding: 20px 40px;
 }
-.login_form .font{
+.login_Page .email_content{
 	font-size: 18px;
 	color: #130f40;
 	margin: 5px 0;
 }
-.login_form input{
+.login_Page input{
 	height: 40px;
 	width: 350px;
 	padding: 0 5px;
@@ -42,10 +42,13 @@ body{
 	border: 1px solid silver;
   
 }
-.login_form .font2{
+.login_Page .password_content{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
 	margin-top: 30px;
 }
-.login_form button{
+.login_Page button{
 	margin: 45px 0 30px 0;
 	height: 45px;
 	width: 365px;
@@ -59,11 +62,11 @@ body{
 	border: 1px solid #399485;
 	transition: .5s;
 }
-.login_form button:hover{
+.login_Page button:hover{
 	background: #40c5ba;
 }
-.login_form #email_error,
-.login_form #pass_error{
+.login_Page #email_error,
+.login_Page #pass_error{
 	margin-top: 5px;
 	width: 345px;
 	font-size: 18px;

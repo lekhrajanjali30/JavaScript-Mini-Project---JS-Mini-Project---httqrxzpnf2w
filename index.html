@@ -5,23 +5,23 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Validated Login Form</title>
+	<title>Login Authentication Form</title>
 	<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 	<div class="container">
 		<h1 class="label">User Login</h1>
-		<form class="login_form" action="./index2.html" name="form" autocomplete="off" onsubmit="return validated()">
+		<form class="login_Page" action="./index2.html" name="form" autocomplete="off" onsubmit="return validate()">
 
-			<div class="font">Email</div>
+			<div class="email_content">Email</div>
 			<input type="text" id="Email" name="email">
-			<div id="email_error">Email Id is Invalid</div>
+			<div id="email_error">Invalid Email</div>
 
-			<div class="font font2">Password</div>
+			<div class="password_content">Password</div>
 			<input type="password" id="Password" name="password">
-			<div id="pass_error">password should contain a number,a special character, a small Alphabet and one big Alphabet</div>
+			<div id="pass_error">password must contain a number,a special character,a lowerCase alphabet and upperCase alphabet</div>
 
-			<button type="submit">Login</button>
+			<button type="submit">LogIn</button>
 		</form>
 	</div>	
 	<script src="./App.js" defer></script>
