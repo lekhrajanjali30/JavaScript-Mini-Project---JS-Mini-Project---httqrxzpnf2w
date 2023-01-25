@@ -1,1 +1,30 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" action="./index2.html" name="form" autocomplete="off" onsubmit="return validated()">
+
+			<div class="font">Email</div>
+			<input type="text" id="Email" name="email">
+			<div id="email_error">Email Id is Invalid</div>
+
+			<div class="font font2">Password</div>
+			<input type="password" id="Password" name="password">
+			<div id="pass_error">password should contain a number,a special character, a small Alphabet and one big Alphabet</div>
+
+			<button type="submit">Login</button>
+		</form>
+	</div>	
+	<script src="./App.js" defer></script>
+</body>
+</html>
+
